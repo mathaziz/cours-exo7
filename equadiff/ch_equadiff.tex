@@ -1423,13 +1423,13 @@ $$x(t) = \cos \left(\sqrt{\tfrac{k}{m}}t\right)$$
 
 \subsubsection*{Oscillations avec faibles frottements}
 
-On rajoute une force de frottement $\vec F =  -fm \frac{\dd x(t)}{\dd t}$
+On rajoute une force de frottement $\vec F =  - h \frac{\dd x(t)}{\dd t}$
 qui est proportionnelle à la vitesse et s'oppose au déplacement
-($f$ est le coefficient de frottement).
+($h$ est le coefficient de frottement visqueux).
 Le principe fondamental de la mécanique devient :
-$$-kx(t)-fm \frac{\dd x(t)}{\dd t} = m\frac{\dd^2 x(t)}{\dd t^2}$$
+$$-kx(t)- h \frac{\dd x(t)}{\dd t} = m\frac{\dd^2 x(t)}{\dd t^2}$$
 
-Il s'agit donc de résoudre l'équation différentielle :
+En divisant par la masse $m$, en regroupant tous les termes du même côté et en posant $f = \frac{h}{m}$, on obtient l'équation différentielle :
 $$y'' + f y' + \frac{k}{m} y = 0$$
 
 L'équation caractéristique est cette fois $r^2+fr+\frac{k}{m}=0$.
