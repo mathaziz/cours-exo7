@@ -255,8 +255,8 @@ Ce sont les propriétés que vous avez toujours pratiquées. Pour $a,b,c \in \Rr
 \begin{center}
 \begin{tabular}{ll}
 $a+b=b+a$ & $a\times b=b\times a$ \\
-$0+a=a$ & $1\times a =a\text{ si }a\neq 0$ \\
-$a+b=0 \iff a=-b$ & $ab=1 \iff a=\frac{1}{b}$\\
+$0+a=a$ & $1\times a =a$ \\
+$a+b=0 \iff a=-b$ & $ab=1 \iff (b\neq 0 \text{ et } a=\frac{1}{b}$\\
 $(a+b)+c=a+(b+c)$ & $(a\times b)\times c=a\times (b\times c)$\\
 &\\
 $a\times(b+c)=a\times b+a\times c$ & \\
@@ -344,7 +344,7 @@ Cette propriété peut sembler évidente, elle est pourtant essentielle puisque 
 permet de définir la partie entière d'un nombre réel :
 \begin{proposition}
 \label{prop:part_ent}
-Soit $x\in \Rr$, il \evidence{existe} un \evidence{unique} entier relatif, la 
+Soit $x\in \Rr$, il \evidence{existe} un \evidence{unique} entier relatif, la
 \defi{partie entière}\index{partie entiere@partie entière} notée $E(x)$, tel que :
 \mybox{$E(x)\leq x <E(x)+1$}
 \end{proposition}
@@ -570,7 +570,7 @@ tout intervalle ouvert (non vide) de $\Rr$ contient une infinité d'irrationnels
 On commence par remarquer que tout intervalle ouvert non vide de $\Rr$
 contient un intervalle du type $]a,b[$, $a,b \in \Rr$. On peut donc supposer que $I=]a,b[$ par la suite.
 \begin{enumerate}
-\item \emph{Tout intervalle contient un rationnel.}
+\item \emph{Tout intervalle ouvert (non vide) contient un rationnel.}
 
 On commence par montrer l'affirmation :
 \begin{equation}
@@ -589,7 +589,7 @@ Posons $p=E(aq)+1$. Alors $p-1\leq aq<p$. On en déduit d'une part $a<\frac pq$,
 $\frac pq- \frac 1q\leq a$, donc $\frac pq \leq a+\frac 1q < a+b-a=b$. Donc $\frac pq\in ]a,b[$.
 On a montré l'affirmation \eqref{eq:ratiodense}.
 
-\item  \emph{Tout intervalle contient un irrationnel.}
+\item  \emph{Tout intervalle ouvert (non vide) contient un irrationnel.}
 
 Partant de $a$, $b$ réels tels que $a<b$, on peut
 appliquer l'implication de l'affirmation \eqref{eq:ratiodense} au
@@ -600,7 +600,7 @@ car sinon comme les rationnels sont stables par somme, $\sqrt{2}=-r+r+\sqrt{2}$
 serait rationnel, ce qui est faux d'après la proposition \ref{prop:rac2irr}.
 On a donc montré que si $a<b$, l'intervalle $]a,b[$ contient aussi un irrationnel.
 
-\item \emph{Tout intervalle contient une infinité de rationnels et d'irrationnels.}
+\item \emph{Tout intervalle ouvert (non vide) contient une infinité de rationnels et d'irrationnels.}
 
 On va déduire de l'existence d'un rationnel et d'un irrationnel
 dans tout intervalle $]a,b[$ le fait qu'il existe une infinité
@@ -652,14 +652,14 @@ Soit $A$ une partie non vide de $\Rr$. Un réel $\alpha$ est un
  \centerline{$\alpha \in A$ \qquad et  \qquad  $\forall x \in A \;\; x\leq \alpha$.}
 S'il existe, le plus grand élément est unique, on le note alors $\max A$.
 
-Le \defi{plus petit élément}\index{plus petit element@plus petit élément} de $A$, noté $\min A$, 
+Le \defi{plus petit élément}\index{plus petit element@plus petit élément} de $A$, noté $\min A$,
 s'il existe est le réel
 $\alpha$ tel que $\alpha \in A$ et $\forall x \in A \;\; x \ge \alpha$.
 \end{definition}
 
 
 
-Le plus grand élément s'appelle aussi le \defi{maximum}\index{maximum} et le plus petit élément, 
+Le plus grand élément s'appelle aussi le \defi{maximum}\index{maximum} et le plus petit élément,
 le \defi{minimum}\index{minimum}.
 Il faut garder à l'esprit que le plus grand élément ou le plus petit élément n'existent pas toujours.
 
@@ -907,12 +907,10 @@ les majorants, les minorants, la borne supérieure et la borne inférieure.
 \vspace*{-1ex}
 
 \auteurs{
-Arnaud Bodin, 
-Niels Borne, 
+Arnaud Bodin,
+Niels Borne,
 Laura Desideri
 }
 
 \finchapitre
 \end{document}
-
-
