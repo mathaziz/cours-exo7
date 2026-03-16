@@ -539,7 +539,7 @@ On peut utiliser le résultat suivant : les seuls ensembles à la fois ouvert et
 	$C$ est le complémentaire de $B$ : $C = \Rr^2 \setminus B$. Il est composé de quatre droites.
 	
 	Comme $B$ est ouvert, $C$ est fermé. Ainsi $\bar C = C$.
-	Comme $B$ n'est pas ouvert, $C$ n'est pas fermé.
+	Comme $B$ n'est pas fermé, $C$ n'est pas ouvert.
 	L'intérieur de $C$ est vide : $\mathring C = \varnothing$.
 		
 	\item $D = \{ (x,y) \in \R^2 \; , \; 1 - xy >  0 \} $.
@@ -648,9 +648,9 @@ On peut utiliser le résultat suivant : les seuls ensembles à la fois ouvert et
 	\end{center}
 	
 	Ce n'est pas un ouvert (car par exemple une dent est déjà un segment vertical fermé).
-	Ce n'est pas non plus un fermé : en effet soit $x_n = (\frac1n,0)$, la suite $(x_n)_{n\ge1}$ est une suite d'éléments de $G$ et tend vers $(0,0) \notin G$. Ainsi par la caractérisation d'un fermé par les suites, $G$ n'est pas fermé.
+	Ce n'est pas non plus un fermé : en effet soit $x_n = (\frac1n,0)$, la suite $(x_n)_{n\ge1}$ est une suite d'éléments de $H$ et tend vers $(0,0) \notin H$. Ainsi par la caractérisation d'un fermé par les suites, $H$ n'est pas fermé.
 	
-	L'adhérence de $G$ est $\bar G = G \cup (\{0\} \times [0,1])$, c'est-à-dire qu'on rajoute une dent au-dessus de l'origine. L'intérieur de $G$ est vide.
+	L'adhérence de $H$ est $\bar H = H \cup (\{0\} \times [0,1])$, c'est-à-dire qu'on rajoute une dent au-dessus de l'origine. L'intérieur de $H$ est vide.
 	
 \end{enumerate}
 
@@ -1030,7 +1030,7 @@ Dans $\R^2$ euclidien, les ensembles suivants sont-ils compacts~?
 	Bilan : $C$ est fermé et borné donc $C$ est compact.
 	
 	Il reste à montrer que $C$ est non vide.
-	Pour chaque $k$, choisissons $x_k\in C_k$. Comme $C_k \subset C$ alors $(x_k)_{k\in\Nn}$ est une suite d'éléments de $C$. Comme $C$ est compact alors $(x_k)_{k\in\Nn}$ admet une sous-suite  $(x_{\phi(k)})_{k\in\Nn}$ convergente. Notons $x_{\infty}$ la limite de cette sous-suite.
+	Pour chaque $k$, choisissons $x_k\in C_k$. Comme $C_k \subset C_0$ alors $(x_k)_{k\in\Nn}$ est une suite d'éléments de $C_0$. Comme $C_0$ est compact alors $(x_k)_{k\in\Nn}$ admet une sous-suite  $(x_{\phi(k)})_{k\in\Nn}$ convergente. Notons $x_{\infty}$ la limite de cette sous-suite.
 	Comme $C$ est fermé alors $x_{\infty} \in C$. Bilan : $C$ est non vide.
 	
 	\item
